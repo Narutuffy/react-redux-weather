@@ -1,0 +1,3 @@
+Middlewares: Middlewares are functions that take an action and depending on action's type and action's payload. The middleware can choose the action to pass through, manipulate the action, console log or can stop it altogether before it reaches the reducer. Middlewares are like gatekeepers.
+We use Axios library to make an AJAX request, there are many libraries like fetch etc.
+Redux-Promise is a  middleware which unwraps a promise and converts it into an object and then send it to reducer as payload(in our case payload was a promise)
